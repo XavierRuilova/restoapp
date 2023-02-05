@@ -17,7 +17,6 @@ function App() {
             <Route path='principal' element={<CardList list={menuPrincipal}/>} />
             <Route path='postres' element={<CardList list={menuPostres}/>} />
           </Route>
-        {/* </Route> */}
         <Route path="*" element={<NoMatch/>} />
       </Routes>
     </React.Fragment>

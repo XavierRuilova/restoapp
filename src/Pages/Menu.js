@@ -12,11 +12,12 @@ function Menu() {
   return (
     <React.Fragment>
       <Header/>
-      <section style={{display:'flex'}}>
+      <section className={'sidebar-outlet'}>
       <SideBar lnkList={lnkMenu}/>
       <Outlet/>
       </section>
-      <section style={{ display: "flex" }}>
+
+      <section className='form-footer'>
         <Form />
         <Footer />
       </section>

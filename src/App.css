@@ -1,3 +1,4 @@
+
 header,footer{
   background-color: #282c34;
   color: white;
@@ -11,6 +12,8 @@ header,footer{
 header {
   padding-left: 100px;
   align-items: center;
+  min-width: 80%;
+
 }
 
 header > div>img {
@@ -27,7 +30,7 @@ header > div>img {
 }
 
 footer{
-  min-width: 183.3vh;
+  min-width: 83.9%;
   min-height: 10vh;
   padding: 20px;
   align-items: flex-start;
@@ -43,7 +46,7 @@ font-size: 15px;
 /*<Form>*/
 .formContainer{
   background-color: rgb(6, 1, 29);
-  min-width: 30vh;
+  width: 13.8%;
   color: white;
   padding: 1.5px;
 }
@@ -66,7 +69,7 @@ font-size: 15px;
   border: 3px solid rgb(30, 43, 219);
   border-radius: 10px;
   width: 200px;
-  height: 40px;
+  height: auto;
   margin: 10px;
   display: flex;
   align-items: center;
@@ -90,7 +93,7 @@ font-size: 15px;
   background-color: rgb(6, 1, 29);
   color: white;
   min-width: 100vh;
-  height: 52vh;
+  min-height: 52vh;
   font-size: calc(10px + 2vmin);
   margin:0;
   display: flex;
@@ -138,11 +141,14 @@ font-size: 20px;
 /* </sections> */
 /* <Main> */
 /* <Menu> */
+.sidebar-outlet, .form-footer{
+  display: flex;
+}
 .App-Sidebar{
   background-color: rgb(6, 1, 29);
   font-size: calc(10px + 2vmin);
   color: white;
-  min-width: 25vh;
+  width: 100%;
   padding:20px;
   min-height: 96vh;
   display: flex;
@@ -195,9 +201,7 @@ font-size: 20px;
 
 /*>>>>>>>>>>>>>>>>>>>>>RESPONSIVE 640PX A 1280PX<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 @media screen and (min-width:640px) and (max-width:1280px) {
-  header {
-    width: auto; /*121hv*/
-  }
+
   
   .App-nav{
     width: auto;/*132.6*/
@@ -210,18 +214,25 @@ font-size: 20px;
   footer > section{
   margin: 5px;
   }
+  .formContainer{
+    width: 25.8%;
+  }
+
   .btn{
     margin: 5px;
+    height: auto;
   }
 
   .App-jumbotron {
     min-width: auto; /*100vh*/
     font-size: calc(1px + 2vmin);
+
   
   }
   .App-jumbotron > div, .App-jumbotron > div>img{
     width: 50vh;
     height: 30vh;
+    margin: 3px;
   }
   .App-jumbotron > div > p{
   font-size: 15px;
@@ -236,6 +247,7 @@ font-size: 20px;
   
   .App-section>div {
     font-size: 15px;
+    padding: 10px;
   }
   .App-section>div>img{
     width: 50vh;
@@ -247,7 +259,7 @@ font-size: 20px;
   /* <Menu> */
   .App-Sidebar{
     font-size: calc(5px + 2vmin);
-    min-width: 25.8vh;
+    width: 80%;
     min-height: 96vh;
   }
 
@@ -274,10 +286,10 @@ font-size: 20px;
   }
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>RESPONSIVE MAX 1280PX <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>RESPONSIVE MAX 640PX <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 @media screen and (max-width:640px){
   header {
-    width: auto; /*121hv*/
+    /* width: auto; 121hv */
   }
   
   .App-nav{
@@ -287,11 +299,16 @@ font-size: 20px;
   }
   
   footer{
-    min-width: 50vh;
+    min-width: 22vh;
+    flex-wrap: wrap;
   }
   
   footer > section{
   margin: 5px;
+  }
+  .formContainer{
+    width: 99%;
+
   }
   .btn{
     margin: 5px;
@@ -300,12 +317,16 @@ font-size: 20px;
 
   .App-jumbotron {
     min-width: auto; /*100vh*/
+    min-height: 100px;
+    
     font-size: calc(1px + 2vmin);
+    flex-direction: column-reverse;
   
   }
   .App-jumbotron > div, .App-jumbotron > div>img{
     width: 50vh;
-    height: 30vh;
+    height: 20vh;
+
   }
   .App-jumbotron > div > p{
   font-size: 15px;
@@ -316,10 +337,13 @@ font-size: 20px;
   
   .App-section {
     min-width: auto;/*100vh*/
+    flex-direction: column-reverse;
+
   }
   
   .App-section>div {
     font-size: 15px;
+    padding: 0;
   }
   .App-section>div>img{
     width: 50vh;
@@ -329,16 +353,22 @@ font-size: 20px;
   /* </sections> */
   /* <Main> */
   /* <Menu> */
+  .sidebar-outlet, .form-footer{
+    display: flex;
+    flex-direction: column;
+  }
   .App-Sidebar{
     font-size: calc(5px + 2vmin);
-    min-width: 25.8vh;
-    min-height: 96vh;
+    width: 100%;/*25.8vh*/
+    min-height: 20vh;
+    padding: 5px;
+    align-items: center;
   }
 
   
   .card{
-    width: 250px;
-    height: 420px;
+    width: 500px;
+    height: 350px;
     margin: 5px;
     padding: 10px; 
   }
