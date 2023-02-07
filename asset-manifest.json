@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/restoapp/static/css/main.7733c16e.css",
-    "main.js": "/restoapp/static/js/main.a8e6ec68.js",
-    "static/js/787.6a67c08f.chunk.js": "/restoapp/static/js/787.6a67c08f.chunk.js",
-    "index.html": "/restoapp/index.html",
-    "main.7733c16e.css.map": "/restoapp/static/css/main.7733c16e.css.map",
-    "main.a8e6ec68.js.map": "/restoapp/static/js/main.a8e6ec68.js.map",
-    "787.6a67c08f.chunk.js.map": "/restoapp/static/js/787.6a67c08f.chunk.js.map"
+    "main.css": "/restoapp.git/static/css/main.7733c16e.css",
+    "main.js": "/restoapp.git/static/js/main.e2b144c5.js",
+    "static/js/787.6a67c08f.chunk.js": "/restoapp.git/static/js/787.6a67c08f.chunk.js",
+    "index.html": "/restoapp.git/index.html",
+    "main.7733c16e.css.map": "/restoapp.git/static/css/main.7733c16e.css.map",
+    "main.e2b144c5.js.map": "/restoapp.git/static/js/main.e2b144c5.js.map",
+    "787.6a67c08f.chunk.js.map": "/restoapp.git/static/js/787.6a67c08f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7733c16e.css",
-    "static/js/main.a8e6ec68.js"
+    "static/js/main.e2b144c5.js"
   ]
 }
