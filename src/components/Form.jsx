@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
 import { db } from '../firebase';
-import { collection, addDoc, getDocs, query, onSnapshot} from 'firebase/firestore';
+import { collection, addDoc, onSnapshot} from 'firebase/firestore';
 
 
 
