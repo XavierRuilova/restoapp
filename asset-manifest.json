@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/XavierRuilova/restoapp/static/css/main.7733c16e.css",
-    "main.js": "/XavierRuilova/restoapp/static/js/main.37d97c25.js",
-    "static/js/787.6a67c08f.chunk.js": "/XavierRuilova/restoapp/static/js/787.6a67c08f.chunk.js",
-    "index.html": "/XavierRuilova/restoapp/index.html",
-    "main.7733c16e.css.map": "/XavierRuilova/restoapp/static/css/main.7733c16e.css.map",
-    "main.37d97c25.js.map": "/XavierRuilova/restoapp/static/js/main.37d97c25.js.map",
-    "787.6a67c08f.chunk.js.map": "/XavierRuilova/restoapp/static/js/787.6a67c08f.chunk.js.map"
+    "main.css": "/restoapp/static/css/main.7733c16e.css",
+    "main.js": "/restoapp/static/js/main.a8e6ec68.js",
+    "static/js/787.6a67c08f.chunk.js": "/restoapp/static/js/787.6a67c08f.chunk.js",
+    "index.html": "/restoapp/index.html",
+    "main.7733c16e.css.map": "/restoapp/static/css/main.7733c16e.css.map",
+    "main.a8e6ec68.js.map": "/restoapp/static/js/main.a8e6ec68.js.map",
+    "787.6a67c08f.chunk.js.map": "/restoapp/static/js/787.6a67c08f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7733c16e.css",
-    "static/js/main.37d97c25.js"
+    "static/js/main.a8e6ec68.js"
   ]
 }
